@@ -1,0 +1,52 @@
+{
+  "appName": "VITEJS-REACT-BOOTSTRAP",
+  "label": {
+    "hi": "Xin chào",
+    "error": "Lỗi",
+    "enter": "Nhập",
+    "warning": "Cảnh báo",
+    "success": "Thành công",
+    "create": "Tạo mới",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "list": "Danh sách",
+    "first": "Đầu",
+    "last": "Cuối",
+    "next": "Sau",
+    "previous": "Trước",
+    "show": "Hiển thị",
+    "records": "Dữ liệu",
+    "pageOf": "Trang {page} trên {total}",
+    "status": "Trạng thái",
+    "search": "Tìm kiếm",
+    "save": "Lưu",
+    "information": "Thông tin",
+    "active": "Đang hoạt động",
+    "inactive": "Khóa",
+    "select": "Chọn ",
+    "order": "Đơn hàng",
+    "favorite": "Yêu thích",
+    "version": "Phiên bản",
+    "back": "Quay lại",
+    "saveDraft": "Lưu nháp",
+    "editName": "Sửa tên"
+  },
+  "menu": {
+    "home": "Trang chủ",
+    "course": "Khóa học",
+    "pricing": "Biểu phí",
+    "guide": "Hướng dẫn",
+    "overview": "Giới thiệu",
+    "profile": "Thông tin tài khoản"
+  },
+  "message": {
+    "saveSuccess": "Dữ liệu lưu thành công.",
+    "required": "Vui lòng điền {field}",
+    "passNotMatch": "Mật khẩu không khớp, vui lòng nhập lại."
+  },
+  "errorMessage": {
+    "internalServerError": "Lỗi từ server!",
+    "requiredField": "{field} không được để trống!",
+    "wrongEmailFormat": "Sai định dạng email!"
+  }
+}

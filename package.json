@@ -1,0 +1,39 @@
+{
+  "name": "vitejs-react-bootstrap",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npm run lint && npm run dev",
+    "dev": "tsc && vite --port 1111",
+    "build": "npm run lint && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 5",
+    "preview": "vite preview",
+    "fw-init": "git clone https://github.com/vosonha89/typescript-common-fw.git framework",
+    "fw-update": "cd framework && git pull",
+    "update-theme": "sass --style expanded --source-map --embed-sources --no-error-css theme/scss/:public/assets/css/"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "reflect-metadata": "^0.2.1",
+    "tsyringe": "^4.8.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@types/validator": "^13.11.9",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "sass": "^1.71.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
